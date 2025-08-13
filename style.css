@@ -15,18 +15,13 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  align-items: center;
+  padding: 1.5rem 2rem;
+  justify-content: center;
   background-color: rgb(29, 29, 29);
   color: white;
   margin-bottom: 20px;
 }
 
-header ul {
-  display: flex;
-  gap: 10px;
-}
 section {
   display: flex;
   flex-direction: column;
@@ -81,8 +76,8 @@ footer {
 @media (max-width: 433px) {
   header {
     flex-direction: column;
-    gap: 10px;
-    font-size: 15px;
+    justify-content: center;
+    align-items: center;
   }
   main img {
     width: 100px;

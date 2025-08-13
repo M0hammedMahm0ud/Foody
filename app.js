@@ -1,28 +1,3 @@
-// let p = new Promise((res, rej) => {
-//   let y = 1;
-//   if (y == 10) {
-//     res(y);
-//   } else {
-//     rej("y not equal 10");
-//   }
-// });
-
-// p.then((fullfilled) => {
-//   // return to send data to the next then
-//   return (fullfilled /= 10);
-// })
-//   .then((fullfill) => {
-//     if (fullfill == 1) return true;
-//   })
-//   .then(() => {
-//     console.log(`+  + `);
-//   })
-//   .catch((rejected) => {
-//     console.log(rejected);
-//   })
-//   .finally(() => {
-//     console.log("Done ...");
-//   });
 let main = document.querySelector("main");
 let url = "https://dummyjson.com/recipes";
 function fetchData(url) {
